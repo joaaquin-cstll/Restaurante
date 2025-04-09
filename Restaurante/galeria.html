@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | La Buena Mesa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .visor img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Buena Mesa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="galeria.html" class="activo">Galería</a></li>
+                <li><a href="reserva.html">Reservas</a></li>
+                <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Galería de imágenes</h2>
+        <div class="visor">
+            <img id="imagen-grande" src="img/comida.png" alt="Imagen grande">
+        </div>
+        <div class="galeria">
+            <img src="img/Carne.png" alt="Plato 1" onclick="document.getElementById('imagen-grande').src=this.src">
+            <img src="img/Risotto.png" alt="Plato 2" onclick="document.getElementById('imagen-grande').src=this.src">
+            <img src="img/Tarta.png" alt="Plato 3" onclick="document.getElementById('imagen-grande').src=this.src">
+        </div>
+    </main>
+
+    <footer>
+        <div class="columna">
+            <h4>Horario</h4>
+            <p>Lunes a Domingo: 13:00 - 23:00</p>
+        </div>
+        <div class="columna">
+            <h4>Contacto</h4>
+            <p>Email: info@labuenamesa.com<br>Tel: 123 456 789</p>
+        </div>
+        <div class="columna">
+            <h4>Redes Sociales</h4>
+            <p>
+                <a href="#">Instagram</a><br>
+                <a href="#">Facebook</a><br>
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
