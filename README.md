@@ -1,7 +1,7 @@
 
 ---
 
-## 🌐 Funcionalidades
+## Funcionalidades
 
 - ✅ Estructura HTML5
 - ✅ Navegación entre páginas
@@ -14,11 +14,10 @@
 ---
 
 
-## 🚀 Cómo ver el proyecto
+##  Cómo ver el proyecto
 
-1. Clona o descarga este repositorio.
-2. Abre `index.html` con tu navegador favorito.
-3. Navega por el sitio como si fuera una web real.
+1. Descarga este repositorio.
+2. Abre `index.html` en el Navegador.
 
 ---
 
