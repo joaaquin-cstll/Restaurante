@@ -188,3 +188,15 @@ footer a {
         justify-content: center;
     }
 }
+
+/* Estilos para el contenedor del mapa */
+.map-container {
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    display: block;
+}
